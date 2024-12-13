@@ -1,1 +1,1 @@
-HelloHello
+Added content that will be added using writeFile
