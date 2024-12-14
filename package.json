@@ -9,6 +9,7 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
+    "mongodb": "^6.12.0",
     "upper-case": "^3.0.0"
   }
 }
