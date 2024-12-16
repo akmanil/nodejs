@@ -29,4 +29,8 @@ http.createServer((req ,res) =>{
     }
     res.writeHead(404);
     res.end(http.STATUS_CODES[404]);
+
 }).listen(3000)
+
+// if you want to port that  in online then we will type
+//.listen(process.env.PORT ) other wise you want to ofline mode then type .listen(process.env.PORT || 3000 )
