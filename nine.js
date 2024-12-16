@@ -14,3 +14,4 @@ http.createServer((request ,response) =>{
     response.end();
     //used for that code is all the response header and body will be send 
 }).listen(3000)
+//tell that which port it will be shown that server
